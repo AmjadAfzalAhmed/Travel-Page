@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>    
+</head>
+<body class="bg-[#00c6c7]">
+    <!-- Navbar Section Start -->
+    <nav class="w-full bg-transparent flex justify-between items-center py-4 px-4 md:px-4">
+        <div class="flex items-center space-x-14">
+            <h1 class="text-white text-2xl bg-[#ffbd27] rounded-2xl p-3 font-semibold "><i>AmjadCreations</i></h1>
+            <div class="flex space-x-8">
+                <a class="text-white text-[20px] hover:bg-yellow-400" href="#">Accommodations</a>
+                <a class="text-white text-[20px] hover:bg-yellow-400" href="#">Flights</a>
+                <a class="text-white text-[20px] hover:bg-yellow-400" href="#">Car Rentals</a>
+                <a class="text-white text-[20px] hover:bg-yellow-400" href="#">Airport Taxis</a>
+            </div>
+        </div>
+        <div class="flex space-x-4">
+            <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#4ed7d4] text-3xl text-white" href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#4ed7d4] text-3xl text-white" href="#"><i class='bx bxl-meta'></i></a>
+            <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#4ed7d4] text-3xl text-white" href="#"><i class='bx bxl-instagram'></i></a>
+            <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#4ed7d4] text-3xl text-white" href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </nav>
+    <!-- Navbar Section Ends -->
+
+    <!-- Hero / Image Section -->
+    <div class="absolute left-[12%] top-[0%]">
+        <div class="float-left">
+            <img class="w-[600px] h-[800px] mt-0" src="Travel.png" alt="Travel">
+        </div>        
+    </div>   
+
+    <div class="absolute left-[60%] top-[10%]">
+        <h1 class="text-8xl text-white font-bold">BOOK</h1>
+        <h1 class="text-8xl text-white font-bold">& TRAVEL</h1>
+        <h1 class="text-2xl text-white">Where you go, make yourself at home</h1>
+
+    </div>
+    <!-- Hero / Image Section Ends -->
+
+    <!-- Data Collection Section -->
+    
+    <div class="bg-[#33d0cf] w-[480px] h-[400px] rounded-lg absolute left-[60%] top-[50%]">
+        <div class="mb-4">
+            <label for="destination" class="block text-white text-sm font-bold mt-4 mb-2 ml-4">DESTINATION</label>
+            <input type="text" placeholder="London, England" name="name" required
+               class="shadow appearance-none rounded w-[450px] ml-4 py-3 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline"/>
+        </div>
+        <div class="mb-4 flex gap-4">
+            <div class="flex-1">
+                <label for="destination" class="block text-white text-sm font-bold mt-4 mb-2 ml-4">CHECK-IN DATE</label>
+                <select class="shadow appearance-none rounded w-[200px] ml-4 py-3 align-center text-gray-500" name="check-in date" id="date">
+                    <option class="text-center" value="date">Sunday Aug 04 ,2024</option>
+                    <option class="text-center" value="date">Monday Aug 05 ,2024</option>
+                    <option class="text-center" value="date">Tuesday Aug 06, 2024</option>
+                    <option class="text-center" value="date">Wednesday Aug 07, 2024</option>
+                  </select>
+            </div>
+            <div class="flex-1">
+                <label for="destination" class="block text-white text-sm font-bold mt-4 mb-2 ml-4">CHECK-OUT DATE</label>
+                <select class="shadow appearance-none rounded w-[200px] ml-4 py-3 align-center text-gray-500" name="check-in date" id="date">
+                    <option class="text-center" value="date">Sunday Aug 04 ,2024</option>
+                    <option class="text-center" value="date">Monday Aug 05 ,2024</option>
+                    <option class="text-center" value="date">Tuesday Aug 06, 2024</option>
+                    <option class="text-center" value="date">Wednesday Aug 07, 2024</option>
+                  </select>
+            </div>            
+        </div>        
+        <div class="mb-4 flex gap-4">
+            <div class="flex-1">
+                <label for="destination" class="block text-white text-sm font-bold mt-3 mb-2 ml-4">ADULTS</label>
+                <select class="shadow appearance-none rounded w-[200px] ml-4 py-3 align-center text-gray-500" name="check-in date" id="date">
+                    <option class="text-center" value="date">2 adults Only</option>
+                    <option class="text-center" value="date">4 adults Only</option>
+                  </select>
+            </div>
+            <div class="flex-1">
+                <label for="destination" class="block text-white text-sm font-bold mt-3 mb-2 ml-4">CHILDREN</label>
+                <select class="shadow appearance-none rounded w-[200px] ml-4 py-3 align-center text-gray-500" name="check-in date" id="date">
+                    <option class="text-center" value="date">No Children Coming</option>
+                    <option class="text-center" value="date">2 Children Coming</option>
+                  </select>
+            </div>            
+        </div>                       
+        
+        <div class="mb-4">
+            <button class="bg-[#ffbd27] text-white w-[420px] ml-7 mt-6 py-3 rounded-lg"><i class='bx bx-search'></i>Start Search</button>            
+        </div>
+    </div>
+     <!-- Data Collection Section Ends -->
+
+
+</body>
+</html>
